@@ -22,7 +22,6 @@ const yearElement = document.getElementById('current-year');
 if (yearElement) {
   yearElement.textContent = new Date().getFullYear();
 }
-<<<<<<< HEAD
 
 
 // Scroll reveal: progressive enhancement; content remains visible without JS.
@@ -211,5 +210,3 @@ if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-mot
     });
 
 })();
-=======
->>>>>>> cb26e0d439cd6dea7c9ccc7ed27e814a634020cd
