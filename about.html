@@ -15,7 +15,7 @@
   <div class="page-noise" aria-hidden="true"></div>
   <header class="site-header">
     <a class="brand" href="index.html" aria-label="FORGE home">
-      <span class="brand-mark">F</span>
+      <span class="brand-mark" aria-hidden="true"><img src="Assets/images/forge-symbol.svg" alt=""></span>
       <span class="brand-name">FORGE<span class="brand-period">.</span></span>
     </a>
     <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">
@@ -37,22 +37,40 @@
       <h1>About <span>me.</span></h1>
       <p class="page-intro">A little about my background, what I am learning, and the kind of work I enjoy building.</p>
     </section>
-    <section class="content-grid about-grid" aria-label="About Nibin">
+    <section class="content-grid about-grid about-intro-grid" aria-label="About Nibin">
+      <aside class="about-portrait-card" aria-label="Portrait of Nibin Shijo">
+        <div class="about-photo-frame">
+          <img src="Assets/images/profile1.jpeg" alt="Portrait photograph of Nibin Shijo" loading="lazy" />
+          <span class="about-photo-corner about-photo-corner-top" aria-hidden="true"></span>
+          <span class="about-photo-corner about-photo-corner-bottom" aria-hidden="true"></span>
+          <span class="about-photo-index">PROFILE / 01</span>
+        </div>
+        <div class="about-photo-caption">
+          <div>
+            <p class="panel-index">THE PERSON BEHIND THE CODE</p>
+            <h2>Nibin <span>Shijo.</span></h2>
+          </div>
+          <span class="about-photo-spark" aria-hidden="true">✳</span>
+        </div>
+        <p class="about-photo-role">MCA STUDENT <span>•</span> ASPIRING SOFTWARE ENGINEER</p>
+      </aside>
+
       <article class="info-panel about-main-panel">
         <p class="panel-index">01 / INTRODUCTION</p>
         <h2>A little about <span>me.</span></h2>
         <p>I am Nibin Shijo, an MCA student at Santhigiri College of Computer Sciences, Vazhithala, affiliated with MG University. I have a foundation in object-oriented programming and full-stack development, and I am eager to begin my career as a Trainee Software Engineer.</p>
         <p>I enjoy working on practical software projects, learning modern technologies, and exploring how AI-driven solutions can support useful applications. My academic work has given me experience with web application development, databases, and building features around real user needs.</p>
-      </article>
-      <aside class="info-panel about-side-panel">
-        <p class="panel-index">02 / QUICK DETAILS</p>
-        <dl class="detail-list">
+
+        <div class="about-details-heading">
+          <span class="about-details-line"></span>
+          <span>QUICK DETAILS</span>
+        </div>
+        <dl class="detail-list about-detail-list">
           <div><dt>LOCATION</dt><dd>Thodupuzha, Kerala</dd></div>
-          <!-- <div><dt>EDUCATION</dt><dd>Master of Computer Applications</dd></div> -->
           <div><dt>CAREER GOAL</dt><dd>Software Engineer</dd></div>
           <div><dt>EMAIL</dt><dd><a href="mailto:nibinshijo@gmail.com">nibinshijo@gmail.com</a></dd></div>
         </dl>
-      </aside>
+      </article>
     </section>
 
     <section class="content-section" aria-labelledby="projects-about-title">
@@ -70,7 +88,7 @@
     </section>
   </main>
   <footer class="site-footer section-shell">
-    <a class="footer-brand" href="index.html">FORGE<span>.</span></a>
+    <a class="footer-brand" href="index.html"><img class="footer-brand-mark" src="Assets/images/forge-symbol.svg" alt="" aria-hidden="true">FORGE<span>.</span></a>
     <p>Designed with intent. Built one line at a time.</p>
     <div class="footer-links">
       <a href="mailto:nibinshijo@gmail.com">EMAIL ↗</a>

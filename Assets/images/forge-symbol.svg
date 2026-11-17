@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="title">
+  <title id="title">FORGE monogram</title>
+  <defs>
+    <linearGradient id="frame" x1="8" y1="7" x2="57" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E7C16C"/>
+      <stop offset="1" stop-color="#A77A29"/>
+    </linearGradient>
+    <linearGradient id="letter" x1="18" y1="14" x2="47" y2="49" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5F1E5"/>
+      <stop offset="1" stop-color="#C8C6B7"/>
+    </linearGradient>
+  </defs>
+  <path d="M32 3.8 56.4 17.9v28.2L32 60.2 7.6 46.1V17.9L32 3.8Z" stroke="url(#frame)" stroke-width="1.5"/>
+  <path d="M32 9.5 51.3 20.7v22.6L32 54.5 12.7 43.3V20.7L32 9.5Z" stroke="#D9A53A" stroke-opacity=".18"/>
+  <path d="M20 17.5h25v7.2H28.1v6.4h13.1v7.1H28.1v10.3H20V17.5Z" fill="url(#letter)"/>
+  <path d="m45.5 10.5 1.8 4.2 4.2 1.8-4.2 1.8-1.8 4.2-1.8-4.2-4.2-1.8 4.2-1.8 1.8-4.2Z" fill="#D9A53A"/>
+  <circle cx="16.5" cy="47.5" r="1.4" fill="#D9A53A"/>
+</svg>

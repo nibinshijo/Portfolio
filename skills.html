@@ -34,7 +34,7 @@
     <header class="site-header">
 
         <a class="brand" href="index.html" aria-label="FORGE home">
-            <span class="brand-mark">F</span>
+            <span class="brand-mark" aria-hidden="true"><img src="Assets/images/forge-symbol.svg" alt=""></span>
             <span class="brand-name">
                 FORGE<span class="brand-period">.</span>
             </span>
@@ -253,44 +253,62 @@
             </p>
 
 
-            <div class="technology-cloud-wrapper reveal-card">
+            <div class="technology-cloud-wrapper toolkit-showcase">
 
                 <div class="technology-cloud-heading">
-
                     <span class="tech-live-dot"></span>
-
                     <span>DEVELOPMENT TOOLKIT</span>
-
+                    <span class="toolkit-heading-note">TOOLS I HAVE EXPLORED</span>
                 </div>
 
-
-                <div class="technology-cloud">
-
-                    <span class="tech-featured">Laravel</span>
-
-                    <span>Bootstrap</span>
-
-                    <span class="tech-featured">Angular</span>
-
-                    <span>Node.js</span>
-
-                    <span>MySQL</span>
-
-                    <span>HTML</span>
-
-                    <span>CSS</span>
-
-                    <span>PHP</span>
-
+                <div class="toolkit-grid" aria-label="Development technologies">
+                    <article class="toolkit-card" data-tool-motion="forge">
+                        <div class="toolkit-card-top"><span class="toolkit-symbol">L</span><span class="toolkit-kind">PHP FRAMEWORK</span></div>
+                        <h3>Laravel</h3><p>Web application framework</p>
+                        <span class="toolkit-card-index">01</span>
+                    </article>
+                    <article class="toolkit-card" data-tool-motion="pop">
+                        <div class="toolkit-card-top"><span class="toolkit-symbol">B</span><span class="toolkit-kind">UI FRAMEWORK</span></div>
+                        <h3>Bootstrap</h3><p>Responsive interface toolkit</p>
+                        <span class="toolkit-card-index">02</span>
+                    </article>
+                    <article class="toolkit-card" data-tool-motion="flip">
+                        <div class="toolkit-card-top"><span class="toolkit-symbol">A</span><span class="toolkit-kind">FRONT END</span></div>
+                        <h3>Angular</h3><p>Web application framework</p>
+                        <span class="toolkit-card-index">03</span>
+                    </article>
+                    <article class="toolkit-card" data-tool-motion="slide">
+                        <div class="toolkit-card-top"><span class="toolkit-symbol">N</span><span class="toolkit-kind">JAVASCRIPT RUNTIME</span></div>
+                        <h3>Node.js</h3><p>JavaScript runtime environment</p>
+                        <span class="toolkit-card-index">04</span>
+                    </article>
+                    <article class="toolkit-card" data-tool-motion="orbit">
+                        <div class="toolkit-card-top"><span class="toolkit-symbol">SQL</span><span class="toolkit-kind">DATABASE</span></div>
+                        <h3>MySQL</h3><p>Relational database system</p>
+                        <span class="toolkit-card-index">05</span>
+                    </article>
+                    <article class="toolkit-card" data-tool-motion="rise">
+                        <div class="toolkit-card-top"><span class="toolkit-symbol">5</span><span class="toolkit-kind">MARKUP</span></div>
+                        <h3>HTML</h3><p>Structure for web content</p>
+                        <span class="toolkit-card-index">06</span>
+                    </article>
+                    <article class="toolkit-card" data-tool-motion="glow">
+                        <div class="toolkit-card-top"><span class="toolkit-symbol">3</span><span class="toolkit-kind">STYLING</span></div>
+                        <h3>CSS</h3><p>Visual design for the web</p>
+                        <span class="toolkit-card-index">07</span>
+                    </article>
+                    <article class="toolkit-card" data-tool-motion="tilt">
+                        <div class="toolkit-card-top"><span class="toolkit-symbol">php</span><span class="toolkit-kind">SERVER SIDE</span></div>
+                        <h3>PHP</h3><p>Server-side scripting language</p>
+                        <span class="toolkit-card-index">08</span>
+                    </article>
                 </div>
-
 
                 <div class="technology-cloud-footer">
                     <span>FRAMEWORKS</span>
                     <span>WEB TECHNOLOGIES</span>
                     <span>DATABASE TOOLS</span>
                 </div>
-
             </div>
 
         </section>
@@ -341,9 +359,7 @@
     <!-- FOOTER -->
     <footer class="site-footer section-shell">
 
-        <a class="footer-brand" href="index.html">
-            FORGE<span>.</span>
-        </a>
+        <a class="footer-brand" href="index.html"><img class="footer-brand-mark" src="Assets/images/forge-symbol.svg" alt="" aria-hidden="true">FORGE<span>.</span></a>
 
         <p>
             Designed with intent. Built one line at a time.

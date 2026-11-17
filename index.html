@@ -22,10 +22,10 @@
   <div class="page-noise" aria-hidden="true"></div>
 
   <!-- HEADER -->
-  <header class="site-header">
+  <header class="site-header" data-home-reveal="down">
 
     <a class="brand" href="index.html" aria-label="FORGE home">
-      <span class="brand-mark">F</span>
+      <span class="brand-mark" aria-hidden="true"><img src="Assets/images/forge-symbol.svg" alt=""></span>
       <span class="brand-name">FORGE<span class="brand-period">.</span></span>
     </a>
 
@@ -63,30 +63,30 @@
       <!-- LEFT CONTENT -->
       <div class="hero-copy">
 
-        <p class="eyebrow">
+        <p class="eyebrow" data-home-intro="eyebrow">
           <span class="eyebrow-line"></span>
           PORTFOLIO / 2026
         </p>
 
-        <p class="intro-label">Hello, I'm</p>
+        <p class="intro-label" data-home-intro="label">Hello, I'm</p>
 
-        <h1 id="hero-title">
-          Nibin <span>Shijo</span><span class="heading-period"></span>
+        <h1 id="hero-title" data-home-intro="title" aria-label="Nibin Shijo">
+          Nibin <span class="name-accent">Shijo</span><span class="heading-period"></span>
         </h1>
 
-        <p class="hero-role">
-          MCA Student
+        <p class="hero-role" data-home-intro="role">
+          <span class="role-phrase">MCA Student</span>
           <span class="role-divider">/</span>
-          Aspiring Software Engineer
+          <span class="role-phrase">Aspiring Software Engineer</span>
         </p>
 
-        <p class="hero-description">
+        <p class="hero-description" data-home-intro="description">
           I'm an MCA student with a foundation in object-oriented programming
           and full-stack development. I enjoy building practical web applications
           and exploring modern technologies, including AI-driven solutions.
         </p>
 
-        <div class="hero-actions">
+        <div class="hero-actions" data-home-intro="actions">
 
           <!-- <a class="button button-primary" href="mailto:nibinshijo@gmail.com">
             Let's connect
@@ -108,7 +108,7 @@
 
         </div>
 
-        <div class="hero-meta">
+        <div class="hero-meta" data-home-intro="meta">
 
           <span class="availability-dot" aria-hidden="true"></span>
 
@@ -129,7 +129,7 @@
       </div>
 
       <!-- RIGHT SIDE: PROFILE PHOTO -->
-      <div class="hero-visual">
+      <div class="hero-visual" data-home-intro="visual">
 
         <!-- Decorative orbital rings -->
         <div class="orbit orbit-one" aria-hidden="true"></div>
@@ -143,11 +143,7 @@
             <!-- YOUR PROFILE PHOTO -->
             <img
               class="portrait-photo"
-<<<<<<< HEAD
-              src="Assets/images/profile2.jpeg"
-=======
-              src="Assets/images/profile.jpg"
->>>>>>> cb26e0d439cd6dea7c9ccc7ed27e814a634020cd
+src="Assets/images/profile2.jpeg"
               alt="Profile photograph of Nibin Shijo"
               fetchpriority="high"
             />
@@ -183,10 +179,10 @@
 
       <div class="hero-bottom-rule" aria-hidden="true"></div>
 
-      <!-- <div class="scroll-cue">
+      <div class="scroll-cue" aria-hidden="true">
         <span class="scroll-line"></span>
         SCROLL TO EXPLORE
-      </div> -->
+      </div>
 
     </section>
 
@@ -221,17 +217,17 @@
       <div class="work-heading">
 
         <div>
-          <p class="eyebrow">
+          <p class="eyebrow" data-home-reveal="left">
             <span class="eyebrow-line"></span>
             A FEW THINGS I'VE BUILT
           </p>
 
-          <h2 id="work-title">
+          <h2 id="work-title" data-home-reveal="up">
             Project <span>Experience</span><span class="heading-period"></span>
           </h2>
         </div>
 
-        <p class="work-heading-note">
+        <p class="work-heading-note" data-home-reveal="right">
           Academic projects that helped me turn ideas into working applications.
         </p>
 
@@ -239,7 +235,7 @@
 
       <div class="project-grid">
 
-        <article class="project-card project-card-featured">
+        <article class="project-card project-card-featured" data-home-reveal="left">
 
           <div class="project-topline">
             <span>01 / WEB APPLICATION</span>
@@ -261,7 +257,7 @@
 
         </article>
 
-        <article class="project-card">
+        <article class="project-card" data-home-reveal="up">
 
           <div class="project-topline">
             <span>02 / WEB APPLICATION</span>
@@ -283,7 +279,7 @@
 
         </article>
 
-        <article class="project-card">
+        <article class="project-card" data-home-reveal="right">
 
           <div class="project-topline">
             <span>03 / SERVICE PLATFORM</span>
@@ -310,16 +306,16 @@
     </section>
 
     <!-- PERSONAL QUOTE -->
-    <section class="quote-section section-shell" aria-label="Personal quote">
+    <section class="quote-section section-shell" aria-label="Personal quote" data-home-reveal="scale">
 
-      <span class="quote-mark" aria-hidden="true">“</span>
+      <span class="quote-mark" aria-hidden="true" data-home-reveal="up">“</span>
 
-      <blockquote>
+      <blockquote data-home-reveal="up">
         Build with curiosity.<br />
         <span>Create with purpose.</span>
       </blockquote>
 
-      <p class="quote-credit">
+      <p class="quote-credit" data-home-reveal="up">
         A PRINCIPLE I BRING TO EVERY PROJECT
       </p>
 
@@ -328,11 +324,9 @@
   </main>
 
   <!-- FOOTER -->
-  <footer class="site-footer section-shell">
+  <footer class="site-footer section-shell" data-home-reveal="up">
 
-    <a class="footer-brand" href="index.html">
-      FORGE<span>.</span>
-    </a>
+    <a class="footer-brand" href="index.html"><img class="footer-brand-mark" src="Assets/images/forge-symbol.svg" alt="" aria-hidden="true">FORGE<span>.</span></a>
 
     <p>Designed with intent.</p>
 
